@@ -3,10 +3,10 @@ function mode(){
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode"))
     {
-         icon.src="../img/sun.png";
+         icon.src="img/sun.png";
     }else
     {
-        icon.src="../img/moon.png";
+        icon.src="img/moon.png";
     }
 
     document.getElementById('nav').classList.toggle('ds');    // making nav bar diffrent color
@@ -15,11 +15,11 @@ function mode(){
 
 
 document.getElementById("home").onclick=function(){
-    location.href="/index.html ";
+    location.href="index.html ";
 };
 
 document.getElementById("about").onclick=function(){
-    location.href="../index.html ";
+    location.href="index.html ";
 };
 
 document.getElementById("calclu").onclick=function(){
@@ -29,19 +29,19 @@ document.getElementById("calclu").onclick=function(){
 };
 
 document.getElementById("search").onclick=function(){
-  location.href="../search.html";
+  location.href="search.html";
 };
 
 document.getElementById("portfolio").onclick=function(){
-    location.href="../index.html";
+    location.href="index.html";
 };
 
 document.getElementById("Count_word").onclick=function(){
-    location.href="../count_word.html";
+    location.href="count_word.html";
 }
 
 document.getElementById("DJ").onclick=function(){
-    location.href="../dj.html";
+    location.href="dj.html";
 };
 
 
