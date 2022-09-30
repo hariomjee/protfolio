@@ -3,10 +3,10 @@ function mode(){
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode"))
     {
-         icon.src="/portfolio/img/sun.png";
+         icon.src="img/sun.png";
     }else
     {
-        icon.src="/portfolio/img/moon.png";
+        icon.src="img/moon.png";
     }
 
     document.getElementById('nav').classList.toggle('ds');    // making nav bar diffrent color
