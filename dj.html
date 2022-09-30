@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>DJ</title>
+</head>
+
+<body>
+    <img onclick="mode()" class="mode" id="mode" src="img/moon.png" alt="">
+    <header>
+        <h1>Hari om Projects</h1>
+    </header>
+    <nav id="nav">
+        <a id="home">Home</a>
+        <a id="about">About</a>
+        <a id="calclu">Calculator</a>
+        <a id="search">Searching</a>
+        <a id="Count_word">Count Word</a>
+        <a id="Dj">DJ</a>
+        <a id="portfolio">Portfolio</a>
+        <a id="login" class="Login">Login</a>
+        <a id="signup" class="SignUp">SignUp</a>
+    </nav>
+
+      <div class="keys">
+          <div data-key="65" class="key">
+              <kbd>A</kbd>
+              <span class="sound">Clap</span>
+          </div>
+          <div data-key="83" class="key">
+              <kbd>S</kbd>
+              <span class="sound">Hihat</span>
+          </div>
+          <div data-key="68" class="key">
+              <kbd>D</kbd>
+              <span class="sound">Kick</span>
+          </div>
+          <div data-key="70" class="key">
+              <kbd>F</kbd>
+              <span class="sound">Boom</span>
+          </div>
+          <div data-key="71" class="key">
+              <kbd>G</kbd>
+              <span class="sound">Ride</span>
+          </div>
+      </div>
+
+      <audio data-key="65" src="sounds/clap.wav"></audio>
+      <audio data-key="83" src="sounds/hihat.wav"></audio>
+      <audio data-key="68" src="sounds/kick.wav"></audio>
+      <audio data-key="70" src="sounds/boom.wav"></audio>
+      <audio data-key="71" src="sounds/ride.wav"></audio>
+
+
+<footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact us</a>
+        <a href="#">Email</a>
+        <a href="#">Tweet</a>
+        <a href="#">&copy;2022 |hari om</a>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>

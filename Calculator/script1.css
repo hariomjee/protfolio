@@ -1,0 +1,93 @@
+*
+{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 4vh;
+}
+header
+{
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+    background-color: aquamarine;
+    
+}
+.ds
+{
+    background-color: red;
+}
+.mode{
+    height: 25px;
+    width: 27px;
+    align-items: left;
+    float: right;
+    font-size: 15px;
+    margin-right: 12px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+nav{
+    background-color:black;
+    overflow: hidden;
+    color: white;
+}
+nav a{
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    font-size: 3vh;
+}
+.Login , .SignUp
+{
+    float: right;
+}
+.container{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 71px;
+    margin-bottom: 157px
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 34px;
+    background-color: #f9edbe;
+    border: 3px solid;
+    border-radius: 10px;
+}
+button{
+    font-size: 33px;
+    width: 103px;
+    height: 53px;
+    border-radius: 10px;
+    background-color: beige
+    
+}
+.calculator
+{
+    display: inline-block;
+    border: 20px red;
+    min-width: 70vh;
+}
+
+footer{
+    background-color: black;
+    overflow: hidden;
+}
+footer a{
+    
+    color: white;
+    padding: 20px;
+    font-size:3vh;
+    text-align: center;
+    float: left;
+}

@@ -1,0 +1,150 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+    background-color: aquamarine;
+    font-size: 20px;
+    
+}
+.mode{
+    height: 25px;
+    width: 27px;
+    align-items: left;
+    float: right;
+    font-size: 15px;
+    margin-right: 12px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+nav{
+    background-color:black;
+    overflow: hidden;
+}
+nav a{
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.ds  /* change nav bar color when screen is black */
+{
+    background-color: red;
+}
+.Login , .SignUp
+{
+    float: right;
+}
+main{
+    text-align: center;
+}
+section{
+    padding: 20px;
+    min-height: 70vh;
+}
+.study{
+    margin: 200px;
+}
+h1{
+    text-align: center;
+    font-size: 4vh;
+}
+.about
+{
+    padding: 10px;
+}
+
+p,div{
+    font-size: 4vh;
+    font-style: oblique;
+}
+img{
+   
+    width: 24%;
+    margin: 2px;    
+}
+span a{
+    text-decoration: underline;
+   
+    font-size: 20px;
+    font-style: oblique;
+}
+footer{
+    background-color: black;
+    overflow: hidden;
+    margin-top: 70px;
+}
+footer a{
+    
+    color: white;
+    padding: 20px;
+    font-size:3vh;
+    text-align: center;
+    float: left;
+}
+
+/* // count word CSS */
+
+#count_text{
+    width: 150vh;
+    height: 40vh;
+    font-size: large;
+
+
+}
+textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 88px;
+}
+
+.result{
+    font-size: 3vh;
+}
+input .result{
+    width: 40px;
+}
+button{
+    padding: 8px;
+    margin: 9px;
+    position: absolute;
+    bottom:2;
+    right: 220px; 
+    background-color: rgb(77, 165, 77);
+    cursor: pointer;
+
+}
+
+
+   /* DJ CSS */
+
+.DJ button{
+    padding: 56px;
+    margin: 50px;
+    font-size: 55px;
+   
+    position: inherit;
+    cursor: pointer;
+    float: left;
+   }
+   .div button{
+       float: left;
+   }
+
+   section{
+    padding: 20px;
+    min-height: 58vh;
+}

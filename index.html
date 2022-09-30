@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>Home</title>
+</head>
+
+<body>
+<img onclick="mode()" class="mode" id="mode" src="img/moon.png" alt="">
+    <header>
+        <h1>Hari om Projects</h1>
+    </header>
+    <nav id="nav">
+        <a id="home">Home</a>
+        <a id="about">About</a>
+        <a id="calclu">Calculator</a>
+        <a id="search">Searching</a>
+        <a id="Count_word">Count Word</a>
+        <a id="DJ">DJ</a>
+        <a id="portfolio">Portfolio</a>
+        <a id="login" class="Login">Login</a>
+        <a id="signup" class="SignUp">SignUp</a>
+    </nav>
+    <main>
+        <section id="section1">
+                <h1>About</h1>
+                <p style="text-align: left;">Hello.....</p>      <!--   this is inline css-->
+                <div class="about">My name is Hari om jee. I am a computer science student. Currently i am prshuing my Master degree in
+                    computer application.I have done my graduation in Bachalore of computer Application from University of Allahabad.
+                    Basically i am from Bhadohi,Uttar Pradesh. I love Mathematics. My hobbies are playing cricket. I used to spent time
+                    with my family during free time. I love to do this.
+                </div>
+
+                <p>
+                    Below i am attaching my some achivments. Please find it.
+                </p>
+        </section>
+        <section id="section2">
+            <h1>Photos</h1>
+            <img src="img/image2.jpg" alt="image">
+            <img src="img/image6.jpg" alt="image">
+            <img src="img/image5.jpg" alt="image">
+            <img src="img/image6.jpg" alt="image">
+
+        </section>
+        <section class="section3">
+            <h1>Study Material</h1>
+            <a target="blank" href="notes/C++ STL.pdf"><img src="img/STL.png" alt="STL" width="25%" height="300vh"></a>
+            <a target="blank" href="notes/Object Oriented Programming (1).pdf"><img src="img/oops.png" alt="Oops" width="25%" height="300vh"></a>
+            <a target="blank" href="notes/Operating System Notes.pdf"><img src="img/os.png" alt="Os" width="25%" height="300vh"></a>
+            <a target="blank" href="notes/OOPs interview bit.pdf"><img src="img/oops1.png" alt="Oops" width="25%" height="300vh"></a>
+
+
+        </section>
+        <section id="section4">
+            <h1>Developer</h1>
+            <img src="img/photo2.jpg" alt="Hari om jee">
+            <h3>Hari om jee</h3>
+            <span>
+            <a href="http://www.facebook.com/helpfulhariomjitiwari" target="blank">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.linkedin.com/in/hari-om-jee" target="blank">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/Hariomjitiwari" target="blank">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/hariomjee" target="blank">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Academia</a>
+            </span>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact us</a>
+        <a href="#">Email</a>
+        <a href="#">Tweet</a>
+        <a href="#">&copy;2022 |hari om</a>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
