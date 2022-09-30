@@ -25,7 +25,7 @@ document.getElementById("about").onclick=function(){
 document.getElementById("calclu").onclick=function(){
     
    // location.href="Portfolio/Calculator/calculator.html";
-    location.href="/Calculator/calculator.html";
+    location.href="Calculator/calculator.html";
 };
 
 document.getElementById("search").onclick=function(){
