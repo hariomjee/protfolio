@@ -15,7 +15,7 @@ function mode(){
 
 
 document.getElementById("home").onclick=function(){
-    location.href="index.html ";
+    location.href="../index.html ";
 };
 
 document.getElementById("about").onclick=function(){
