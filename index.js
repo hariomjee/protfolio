@@ -29,7 +29,8 @@ document.getElementById("calclu").onclick=function(){
 };
 
 document.getElementById("search").onclick=function(){
-  location.href="search.html";
+    location.replace("search.html");
+  //location.href="search.html";
 };
 
 document.getElementById("portfolio").onclick=function(){
