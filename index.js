@@ -15,11 +15,11 @@ function mode(){
 
 
 document.getElementById("home").onclick=function(){
-    location.href="index.html ";
+    location.href="../protfolio/index.html ";
 };
 
 document.getElementById("about").onclick=function(){
-    location.href="../index.html ";
+    location.href="../protfolio/index.html ";
 };
 
 document.getElementById("calclu").onclick=function(){
@@ -29,12 +29,12 @@ document.getElementById("calclu").onclick=function(){
 };
 
 document.getElementById("search").onclick=function(){
-    location.replace("../search.html");
+    location.replace("../protfolio/search.html");
   
 };
 
 document.getElementById("portfolio").onclick=function(){
-    location.href="../index.html";
+    location.href="../protfolio/index.html";
 };
 
 document.getElementById("Count_word").onclick=function(){
@@ -42,7 +42,7 @@ document.getElementById("Count_word").onclick=function(){
 }
 
 document.getElementById("DJ").onclick=function(){
-    location.href="../dj.html";
+    location.href="../protfolio/dj.html";
 };
 
 
