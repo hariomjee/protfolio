@@ -19,30 +19,30 @@ document.getElementById("home").onclick=function(){
 };
 
 document.getElementById("about").onclick=function(){
-    location.href="index.html ";
+    location.href="../index.html ";
 };
 
 document.getElementById("calclu").onclick=function(){
     
-   // location.href="Portfolio/Calculator/calculator.html";
+   
     location.href="Calculator/calculator.html";
 };
 
 document.getElementById("search").onclick=function(){
-    location.replace("search.html");
-  //location.href="search.html";
+    location.replace("../search.html");
+  
 };
 
 document.getElementById("portfolio").onclick=function(){
-    location.href="index.html";
+    location.href="../index.html";
 };
 
 document.getElementById("Count_word").onclick=function(){
-    location.href="count_word.html";
+    location.href="../count_word.html";
 }
 
 document.getElementById("DJ").onclick=function(){
-    location.href="dj.html";
+    location.href="../dj.html";
 };
 
 
