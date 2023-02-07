@@ -51,7 +51,7 @@ main{
 }
 section{
     padding: 20px;
-    min-height: 70vh;
+    min-height: 30vh;
 }
 .study{
     margin: 200px;
@@ -146,5 +146,5 @@ button{
 
    section{
     padding: 20px;
-    min-height: 58vh;
+    min-height: 30vh;
 }

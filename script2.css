@@ -67,7 +67,7 @@ footer a{
 section{
     padding: 50px;
     margin: 10px;
-    min-height: 50vh;
+    min-height: 30vh;
     font-size: 3vh;
     font-style: italic;
     display: flex;
