@@ -42,7 +42,7 @@ document.getElementById("Count_word").onclick=function(){
 }
 
 document.getElementById("DJ").onclick=function(){
-    location.href="../protfolio/dj.html";
+    location.href="dj.html";
 };
 
 
