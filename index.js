@@ -38,7 +38,7 @@ document.getElementById("portfolio").onclick=function(){
 };
 
 document.getElementById("Count_word").onclick=function(){
-    location.href="../count_word.html";
+    location.href="../protfolio/count_word.html";
 }
 
 document.getElementById("DJ").onclick=function(){
