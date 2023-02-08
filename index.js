@@ -15,30 +15,30 @@ function mode(){
 
 
 document.getElementById("home").onclick=function(){
-    location.href="../protfolio/index.html ";
+    location.href="index.html ";
 };
 
 document.getElementById("about").onclick=function(){
-    location.href="../protfolio/index.html ";
+    location.href="../index.html ";
 };
 
 document.getElementById("calclu").onclick=function(){
     
    
-    location.href="Calculator/calculator.html";
+    location.href="calculator.html";
 };
 
 document.getElementById("search").onclick=function(){
-    location.replace("../protfolio/search.html");
+    location.replace("../search.html");
   
 };
 
 document.getElementById("portfolio").onclick=function(){
-    location.href="../protfolio/index.html";
+    location.href="../index.html";
 };
 
 document.getElementById("Count_word").onclick=function(){
-    location.href="../protfolio/count_word.html";
+    location.href="../count_word.html";
 }
 
 document.getElementById("DJ").onclick=function(){
