@@ -15,11 +15,11 @@ function mode(){
 
 
 document.getElementById("home").onclick=function(){
-    location.href="index.html";
+    location.href="index.html ";
 };
 
 document.getElementById("about").onclick=function(){
-    location.href="index.html";
+    location.href="../index.html ";
 };
 
 document.getElementById("calclu").onclick=function(){
@@ -29,16 +29,16 @@ document.getElementById("calclu").onclick=function(){
 };
 
 document.getElementById("search").onclick=function(){
-    location.replace("search.html");
+    location.replace("../search.html");
   
 };
 
 document.getElementById("portfolio").onclick=function(){
-    location.href="index.html";
+    location.href="../index.html";
 };
 
 document.getElementById("Count_word").onclick=function(){
-    location.href="count_word.html";
+    location.href="../count_word.html";
 }
 
 document.getElementById("DJ").onclick=function(){
